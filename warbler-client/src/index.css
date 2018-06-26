@@ -1,5 +1,5 @@
 body {
-  background-color: #e6ecf0
+  background-color: #e6ecf0;
 }
 
 /* Nav */
@@ -8,8 +8,7 @@ body {
   margin-bottom: 1rem;
 }
 
-
-.navbar a{
+.navbar a {
   font-weight: bold;
   color: white;
 }
@@ -48,11 +47,11 @@ ul.nav.navbar-nav li {
   align-items: center;
   justify-content: center;
   z-index: -1;
-  background-image: url('./images/signed-out-home.jpg');
+  background-image: url("./images/signed-out-home.jpg");
   text-align: center;
   padding: 1rem;
   background-position: center center;
   background-size: cover;
   color: #fff;
-  text-shadow: 0 0 8px #66757f
+  text-shadow: 0 0 8px #66757f;
 }
