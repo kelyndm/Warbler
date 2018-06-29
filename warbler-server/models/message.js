@@ -20,7 +20,7 @@ const messageSchema = new mongoose.Schema({
 messageSchema.pre('remove', async function(next) {
     try {
         let user = await User.findById(this.user);
-        user.message.remove(this.id);
+        user.messages.remove(this.id);
         await user.save();
         return next();
     } catch(e) {
