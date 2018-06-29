@@ -19,7 +19,7 @@ export default function withAuth(CompoenentToBeRendered) {
     }
     function mapStateToProps(state) {
         return {
-            isAuthenticated: state.currentUser.isAuthenticated``
+            isAuthenticated: state.currentUser.isAuthenticated
         }
     }
     return connect(mapStateToProps)(Authenticate);
